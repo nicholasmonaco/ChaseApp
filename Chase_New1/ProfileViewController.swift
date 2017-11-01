@@ -13,6 +13,8 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.tabBarController?.selectedIndex = 4;//this is 4 due to the 5th view created being the main menu
     }
 
     override func didReceiveMemoryWarning() {
